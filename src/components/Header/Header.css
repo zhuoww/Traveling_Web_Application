@@ -1,0 +1,40 @@
+.header {
+    background-color: black;
+    color: #fff;
+
+    display: grid;
+    grid-template-areas: 
+    "header-logo header-title"
+    "header-nav header-nav"
+    ;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 150px auto;
+
+    align-items: center;
+
+}
+
+.header__logo {
+    grid-area: header-logo;
+
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center left;
+
+    margin: 20px;
+    cursor: pointer;
+}
+
+.header__title {
+    grid-area: header-title;
+    text-align: center;
+
+    font-size: 3rem;
+}
+
+.header__nav {
+    grid-area: header-nav;
+    background-color: white;
+
+}

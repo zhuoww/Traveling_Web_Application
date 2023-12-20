@@ -1,0 +1,111 @@
+.plan, .plan-reverse {
+    display: flex;
+    border: 1.5px solid rgb(221, 221, 221);
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: white;
+    justify-content: space-between;
+    
+    cursor: pointer;
+}
+
+.plan {
+    flex-direction: row-reverse;
+
+}
+
+.plan__body, .plan-reverse__body {
+    flex: 1;
+    padding: 0.5rem;
+
+}
+
+.plan__title, .plan-reverse__title {
+    padding: 1rem;
+}
+
+.plan__text, .plan-reverse__text {
+    text-align: left;
+    line-height: 2;
+    padding: 1rem;
+    margin: 0;
+}
+
+.plan__pic, .plan-reverse__pic {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2rem;
+}
+
+.plan__pic:hover, .plan-reverse__pic:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(206, 206, 206);
+}
+
+.plan__pic-container, .plan-reverse__pic-container {
+    position: relative;
+    display: inline-block;
+
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}
+
+.plan__button-container, .plan-reverse__button-container {
+    padding: 1rem;
+    align-items: left;
+}
+
+@media(max-width: 44rem) {
+    .plan  {
+        display: block;
+        float: right;
+        margin: 2rem;
+
+    }
+
+    .plan-reverse {
+        display: block;
+        float: left;
+        margin: 2rem;
+    }
+
+    .plan__pic-container  {
+        float: right;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        width: 150px;
+        height: 150px;
+    }
+
+    .plan-reverse__pic-container {
+        float: left;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        width: 150px;
+        height: 150px;
+    }
+
+    .plan__pic, .plan-reverse__pic {
+        margin-top: 0;
+    }
+
+    .plan__body, .plan-reverse__body {
+        text-align: center;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+
+    }
+
+}

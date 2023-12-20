@@ -1,0 +1,7 @@
+.skiplink {
+    position:absolute;
+    top: -40px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}

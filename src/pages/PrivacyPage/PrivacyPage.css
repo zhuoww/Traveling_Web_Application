@@ -1,0 +1,44 @@
+.privacy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px;
+}
+
+.privacy__date {
+    color: rgb(160, 160, 160);
+}
+
+.privacy__title {
+    font-size: 2rem;
+}
+
+.privacy__subtitle {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.5rem;
+}
+
+.privacy__text {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.privacy__button {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 44rem) {
+    .privacy__subtitle {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .privacy__text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,15 @@
+.star-rating {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: black
+  }
+  
+  .star {
+    font-size: 1rem;
+    color: #ffd700;
+  }
+  
+  .filled {
+    color: #ffcc00;
+  }
+  

@@ -1,0 +1,32 @@
+.cards {
+    display: grid;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2.5rem;
+
+}
+
+.explore-title {
+    font-size: 3rem;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+    gap: 10px;
+}
+
+@media (max-width: 44rem) {
+    .filter-buttons {
+        margin-right: 50px;
+    }
+}
+
+

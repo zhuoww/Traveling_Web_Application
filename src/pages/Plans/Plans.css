@@ -1,0 +1,22 @@
+.plans {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    max-width: 800px;
+    width: 100%;
+    margin: 5rem auto;
+}
+
+.plans-title {
+    font-size: 1.2rem;
+    color: grey;
+    font-weight: lighter;
+    padding-left: 2rem;
+}
+
+
+@media(max-width: 44rem) {
+    .plans {
+        padding: 0.5rem;
+    }
+}
